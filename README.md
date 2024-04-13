@@ -1,7 +1,16 @@
-# Micro-Action
+# Micro-Action Recognition Benchmark
 
-## Paper
 **Benchmarking Micro-action Recognition: Dataset, Methods, and Applications**
+
+[[Paper](https://ieeexplore.ieee.org/document/10414076)] 
+
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-micro-action-recognition-dataset/micro-action-recognition-on-ma-52)](https://paperswithcode.com/sota/micro-action-recognition-on-ma-52?p=benchmarking-micro-action-recognition-dataset)
+
+
+## News
+
+
 
 
 ## Introduction
@@ -19,3 +28,17 @@ We will release the source code soon.
 The datasets are **only** to be used for **non-commercial scientific purposes**. If you want use the datasets, please feel free to send an email to this [address](guodan@hfut.edu.cn). 
 
 
+## Citation
+
+Please consider citing the related paper in your publications if it helps your research.
+
+```
+@article{guo2024benchmarking,
+  title={Benchmarking Micro-action Recognition: Dataset, Methods, and Applications},
+  author={Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2024},
+  publisher={IEEE}
+  doi={10.1109/TCSVT.2024.3358415}
+}
+```

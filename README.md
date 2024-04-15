@@ -30,8 +30,9 @@ The datasets are **only** to be used for **non-commercial scientific purposes**.
 
 
 ### MA-52 Statistics
-![ma-52](https://github.com/VUT-HFUT/Micro-Action/raw/master/assets/ma52.png "ma-52")
-
+<p align="center">
+<img src="./assets/ma52.png" width="880">
+</p>
 
 ### Micro-Action examples
 
@@ -40,12 +41,9 @@ TBD.
 ---
 
 
-## Code
-We will release the source code soon. 
+### Code
+TBD.
 
-
-
----
 
 ## Citation
 

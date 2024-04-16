@@ -1,23 +1,23 @@
 #
 
 ## Data preparation
+TBD.
 
 
+## Installation
+TBD.
 
 ## Training
-
-
-
+TBD.
 
 ## Evaluation 
-We provide the pre-trained weights, you can download it from [here](https://xxx)
+We provide the pre-trained weights of MANet, you can download it from [here](https://drive.google.com/file/d/1AUwyGPSgOD-EE7scR7skH-SMZ8kCojCs/view?usp=sharing)
 
-
+TBD.
 
 
 ## Acknoledgements 
 This code began with [mmaction2](https://github.com/open-mmlab/mmaction2). We thank the developers for doing most of the heavy-lifting. 
-
 
 
 ## Citation 

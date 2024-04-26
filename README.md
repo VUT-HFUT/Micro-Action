@@ -10,6 +10,7 @@
 
 ## News
 
+- [2024/4/26] :tada: :tada: :tada: We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
 - [2024/4/16] We released the source code of MANet. 
 
 ---

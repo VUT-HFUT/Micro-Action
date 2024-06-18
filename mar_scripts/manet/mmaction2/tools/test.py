@@ -49,8 +49,8 @@ def fine2coarse(x):
 def parse_args():
     parser = argparse.ArgumentParser(
         description='MMAction2 test (and eval) a model')
-    parser.add_argument('--config',default="/chenguoliang/code/mmaction2/configs/recognition/manet/manet.py", help='test config file path')
-    parser.add_argument('--checkpoint',default="/chenguoliang/code/mmaction2/work_dirs/manet/2024-04-15-10-07-05former/best_top1_acc_epoch_39.pth", help='checkpoint file')
+    parser.add_argument('config', help='test config file path')
+    parser.add_argument('checkpoint', help='checkpoint file')
     parser.add_argument(
         '--out',
         help='output result file in pkl/yaml/json format')
@@ -108,7 +108,6 @@ def parse_args():
         default='none',
         help='job launcher')
     parser.add_argument('--local_rank', type=int, default=0)
-
     args = parser.parse_args()
     if 'LOCAL_RANK' not in os.environ:
         os.environ['LOCAL_RANK'] = str(args.local_rank)
@@ -242,11 +241,11 @@ def accuracy(output, target, topk=(1, )):
 
 def my_evaluate(dataset,results,target_path):
 
-    ans_label=[ann['label'] for ann in dataset.video_infos]
-    lv_result=lv_evaluate(results,ans_label)
+    ans_label = [ann['label'] for ann in dataset.video_infos]
+    lv_result = lv_evaluate(results,ans_label)
     print(lv_result)
 
-    res=top_1_5_accuracy(results,dataset,target_path,lv_result)
+    res = top_1_5_accuracy(results,dataset,target_path,lv_result)
 
 def lv_evaluate(predictions, labels):
     # prediction and labels are all level-2 class ids
@@ -419,10 +418,11 @@ def main():
                               **cfg.data.get('test_dataloader', {}))
     data_loader = build_dataloader(dataset, **dataloader_setting)
 
-    target_dir="/chenguoliang/code/mmaction2/work_dirs/manet/2024-04-15-10-07-05former/"
+    target_dir="./work_dirs/manet/2024-04-15-10-07-05former/"
 
     outputs = inference_pytorch(args, cfg, distributed, data_loader)
-    my_evaluate(dataset,outputs,target_dir)
+
+    my_evaluate(dataset, outputs, target_dir)
 
 
 if __name__ == '__main__':

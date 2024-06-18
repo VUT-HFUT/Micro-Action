@@ -23,8 +23,8 @@ from mmaction.utils import (collect_env, get_root_logger,
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a recognizer')
-    parser.add_argument('--config',default='/chenguoliang/code/mmaction2/configs/recognition/manet/manet.py' ,type=str,help='train config file path')
-    parser.add_argument('--work-dir',default='/chenguoliang/code/mmaction2/work_dirs/manet/' ,type=str,help='the dir to save logs and models')
+    parser.add_argument('config', help='train config file path')
+    parser.add_argument('--work-dir', help='the dir to save logs and models')
     parser.add_argument('--task_name', type=str, default='formal')
     parser.add_argument(
         '--resume-from', help='the checkpoint file to resume from')

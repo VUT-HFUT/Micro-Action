@@ -5,12 +5,13 @@ _base_ = [
 
 # dataset settings
 dataset_type = 'VideoDataset'
-data_root = '/chenguoliang/data/micro_action/fined_videos/train/'
-data_root_val = '/chenguoliang/data/micro_action/fined_videos/val/'
-data_root_test = '/chenguoliang/data/micro_action/fined_videos/test/'
-ann_file_train = '/chenguoliang/code/mmaction2/manet/move_face/1214_train.txt'
-ann_file_val = '/chenguoliang/code/mmaction2/manet/move_face/1214_val.txt'
-ann_file_test = '/chenguoliang/code/mmaction2/manet/move_face/1214_test.txt'
+data_root = './data/ma52/videos_train/'
+data_root_val = './data/ma52/videos_val/'
+data_root_test = './data/ma52/videos_test/'
+ann_file_train = './data/ma52/train_list_videos.txt'
+ann_file_val = './data/ma52/val_list_videos.txt'
+ann_file_test = './data/ma52/test_list_videos.txt'
+
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53],
     std=[58.395, 57.12, 57.375],
@@ -99,4 +100,4 @@ optimizer = dict(
 )
 # runtime settings
 checkpoint_config = dict(interval=5)
-work_dir = '/chenguoliang/code/mmaction2/work_dirs/manet/'
+work_dir = './work_dirs/manet/'

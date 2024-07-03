@@ -53,7 +53,7 @@ Please consider citing the related paper in your publications if it helps your r
   volume={34},
   number={7},
   pages={6238-6252},
-  publisher={IEEE}
+  publisher={IEEE},
   doi={10.1109/TCSVT.2024.3358415}
 }
 ```

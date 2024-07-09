@@ -59,7 +59,7 @@ Please consider citing the related paper in your publications if it helps your r
   doi={10.1109/TCSVT.2024.3358415}
 }
 
-@article{liu2024micro,
+@article{li2024mmad,
   title={MMAD: Multi-label Micro-Action Detection in Videos},
   author={Li, Kun and Guo, Dan and Liu, Pengyu and Chen, Guoliang and Wang, Meng},
   journal={arXiv preprint arXiv:2407.05311},

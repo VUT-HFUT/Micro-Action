@@ -34,9 +34,10 @@ python tools/test.py configs/recognition/manet/manet.py work_dirs/manet/best_top
 python online_evaluation/eval.py
 ```
 
-### Codabench Submission
+### Codabench Submission (Test set)
 
 ### Format
+The test set is reserved for competition. 
 The prediction file `sample_prediction.csv` is in csv format, each row of the files denotes the predicted categories. 
 ```
           `id`: `video id`
@@ -59,7 +60,10 @@ Please consider citing the related paper in your publications if it helps your r
   author={Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   year={2024},
-  publisher={IEEE}
+  volume={34},
+  number={7},
+  pages={6238-6252},
+  publisher={IEEE},
   doi={10.1109/TCSVT.2024.3358415}
 }
 ```

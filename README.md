@@ -10,7 +10,8 @@
 
 ## News
 
-- [2024/4/26] :tada: :tada: :tada: We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
+- [2024/7/9]  :tada: :tada: :tada: We released the MMA-52 dataset for Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
+- [2024/4/26] We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
 - [2024/4/16] We released the source code of MANet. 
 
 ---
@@ -26,8 +27,9 @@ Micro-action is an imperceptible non-verbal behaviour characterised by low-inten
 
 The datasets are **only** to be used for **non-commercial scientific purposes**. You may request access to the dataset by completing the Google Form provided. We will respond promptly upon receipt of your application. If you have difficulty in filling out the form, we can also accept the application by [[email](mailto:kunli.hfut@gmail.com?subject=Micro-Action%20Dataset%20Requests&cc=guodan@hfut.edu.cn)]. 
 
-- Micro-Action 52 dataset (MA-52): [https://forms.gle/avQQiRWvbxa1nDFQ6](https://forms.gle/avQQiRWvbxa1nDFQ6)
-- Micro-Action Pro dataset (MA-52-Pro): [https://forms.gle/ALje6GSeh2okHbmx8](https://forms.gle/ALje6GSeh2okHbmx8)
+- Micro-Action-52 dataset (MA-52): [https://forms.gle/avQQiRWvbxa1nDFQ6](https://forms.gle/avQQiRWvbxa1nDFQ6)
+- Micro-Action-Pro dataset (MA-52-Pro): [https://forms.gle/ALje6GSeh2okHbmx8](https://forms.gle/ALje6GSeh2okHbmx8)
+- Multi-label Micro-Action-52 dataset (MMA-52): [https://forms.gle/k9p7MxzEKT3iV27x6](https://forms.gle/k9p7MxzEKT3iV27x6)
 
 
 ### MA-52 Statistics
@@ -56,4 +58,12 @@ Please consider citing the related paper in your publications if it helps your r
   publisher={IEEE},
   doi={10.1109/TCSVT.2024.3358415}
 }
+
+@article{liu2024micro,
+  title={MMAD: Multi-label Micro-Action Detection in Videos},
+  author={Li, Kun and Guo, Dan and Liu, Pengyu and Chen, Guoliang and Wang, Meng},
+  journal={arXiv preprint arXiv:2407.05311},
+  year={2024}
+}
+
 ```

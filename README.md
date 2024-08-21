@@ -1,4 +1,4 @@
-# Micro-Action Recognition Benchmark
+# Micro-Action Benchmark
 
 **Benchmarking Micro-action Recognition: Dataset, Methods, and Applications**
 
@@ -64,6 +64,13 @@ Please consider citing the related paper in your publications if it helps your r
   author={Li, Kun and Guo, Dan and Liu, Pengyu and Chen, Guoliang and Wang, Meng},
   journal={arXiv preprint arXiv:2407.05311},
   year={2024}
+}
+@misc{MicroAction2024,
+  author       = {Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},
+  title        = {Micro-Action Benchmark},
+  year         = {2024},
+  howpublished = {\url{https://github.com/VUT-HFUT/Micro-Action}},
+  note         = {Accessed: 2024-08-21}
 }
 
 ```

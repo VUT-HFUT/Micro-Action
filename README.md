@@ -38,7 +38,50 @@ The datasets are **only** to be used for **non-commercial scientific purposes**.
 </p>
 
 ### Micro-Action examples
-TBD.
+
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<video src="./assets/ma52_demo/A1 shaking body/0030_01_0002.mp4" width="100%" controls></video>
+				<p>A1: shaking body</p>
+      </center>
+		</td>
+		<td>
+			<center>
+				<video src="./assets/ma52_demo/A2 turning around/0078_01_0005.mp4" width="100%" controls></video>
+				<p>A2: turning around</p>
+      </center>
+		</td>
+    <td>
+			<center>
+				<video src="./assets/ma52_demo/A3 sitting straightly/0020_01_0008.mp4" width="100%" controls></video>
+				<p>A3: sitting straightly</p>
+      </center>
+		</td>
+  </tr>
+  <tr>
+		<td>
+			<center>
+				<video src="./assets/ma52_demo/B1 nodding/0019_02_0078.mp4" width="100%" controls></video>
+				<p>B1 nodding</p>
+      </center>
+		</td>
+    <td>
+			<center>
+				<video src="./assets/ma52_demo/B2 shaking head/0035_02_0007.mp4" width="100%" controls></video>
+				<p>B2 shaking head</p>
+			</center>
+		</td>
+    <td>
+			<center>
+				<video src="./assets/ma52_demo/B3 turning head/0010_02_0101.mp4" width="100%" controls></video>
+				<p>B3 turning head</p>
+			</center>
+		</td>
+	</tr>
+</table>
+
 
 ---
 

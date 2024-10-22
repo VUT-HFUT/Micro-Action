@@ -10,7 +10,7 @@
 
 ## News
 
-- [2024/7/9]  :tada: :tada: :tada: We released the MMA-52 dataset for Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
+- [2024/7/9] :tada: :tada: :tada: We released the MMA-52 dataset for Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
 - [2024/4/26] We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
 - [2024/4/16] We released the source code of MANet. 
 
@@ -27,7 +27,7 @@ Micro-action is an imperceptible non-verbal behaviour characterised by low-inten
 
 The datasets are **only** to be used for **non-commercial scientific purposes**. You may request access to the dataset by completing the Google Form provided and corresponding LA files. We will respond promptly upon receipt of your application. If you have difficulty in filling out the form, we can also accept the application by [[email](mailto:kunli.hfut@gmail.com?subject=Micro-Action%20Dataset%20Requests&cc=guodan@hfut.edu.cn)]. 
 
-- Micro-Action-52 dataset (MA-52): [Application Form](https://forms.gle/avQQiRWvbxa1nDFQ6) and [LA File](https://drive.google.com/file/d/1vAussMwE9GrL5Vt1MpSQeSmVbUMsgPhw/view?usp=sharing)
+- Micro-Action-52 dataset (MA-52): [Application Form](https://forms.gle/avQQiRWvbxa1nDFQ6) and [LA File](https://drive.google.com/file/d/1vAussMwE9GrL5Vt1MpSQeSmVbUMsgPhw/view?usp=sharing) 
 - Micro-Action-Pro dataset (MA-52-Pro): [Application Form](https://forms.gle/ALje6GSeh2okHbmx8)
 - Multi-label Micro-Action-52 dataset (MMA-52): [Application Form](https://forms.gle/k9p7MxzEKT3iV27x6) and [LA File](https://drive.google.com/file/d/1uJ071OdsGKxWa70nOHdjDjnOfWXy7bgU/view?usp=sharing)
 
@@ -39,23 +39,25 @@ The datasets are **only** to be used for **non-commercial scientific purposes**.
 
 ### Micro-Action examples
 
+For more micro-action samples, please refer to `MA-52 Dataset Samples.zip` in [huggingface](https://huggingface.co/datasets/kunli-cs/MA-52/tree/main). 
+
 <table rules="none" align="center">
 	<tr>
 		<td>
 			<center>
-				<video src="./assets/ma52_demo/A1 shaking body/0030_01_0002.mp4" width="100%" controls></video>
+				<img src="./assets/ma52_demo/A1 shaking body/0030_01_0002.gif" width="100%" />
 				<p>A1: shaking body</p>
       </center>
 		</td>
 		<td>
 			<center>
-				<video src="./assets/ma52_demo/A2 turning around/0078_01_0005.mp4" width="100%" controls></video>
+				<img src="./assets/ma52_demo/A2 turning around/0078_01_0005.gif" width="100%" />
 				<p>A2: turning around</p>
       </center>
 		</td>
     <td>
 			<center>
-				<video src="./assets/ma52_demo/A3 sitting straightly/0020_01_0008.mp4" width="100%" controls></video>
+				<img src="./assets/ma52_demo/A3 sitting straightly/0020_01_0008.gif" width="100%" />
 				<p>A3: sitting straightly</p>
       </center>
 		</td>
@@ -63,27 +65,24 @@ The datasets are **only** to be used for **non-commercial scientific purposes**.
   <tr>
 		<td>
 			<center>
-				<video src="./assets/ma52_demo/B1 nodding/0019_02_0078.mp4" width="100%" controls></video>
+				<img src="./assets/ma52_demo/B1 nodding/0019_02_0078.gif" width="100%" />
 				<p>B1 nodding</p>
       </center>
 		</td>
     <td>
 			<center>
-				<video src="./assets/ma52_demo/B2 shaking head/0035_02_0007.mp4" width="100%" controls></video>
+				<img src="./assets/ma52_demo/B2 shaking head/0035_02_0007.gif" width="100%" />
 				<p>B2 shaking head</p>
 			</center>
 		</td>
     <td>
 			<center>
-				<video src="./assets/ma52_demo/B3 turning head/0010_02_0101.mp4" width="100%" controls></video>
+				<img src="./assets/ma52_demo/B3 turning head/0010_02_0101.gif" width="100%" />
 				<p>B3 turning head</p>
 			</center>
 		</td>
 	</tr>
 </table>
-
-
----
 
 ## Citation
 
@@ -108,6 +107,7 @@ Please consider citing the related paper in your publications if it helps your r
   journal={arXiv preprint arXiv:2407.05311},
   year={2024}
 }
+
 @misc{MicroAction2024,
   author       = {Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},
   title        = {Micro-Action Benchmark},

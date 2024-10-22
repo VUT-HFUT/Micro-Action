@@ -37,6 +37,7 @@ The datasets are **only** to be used for **non-commercial scientific purposes**.
 <img src="./assets/ma52.png" width="880">
 </p>
 
+
 ### Micro-Action examples
 
 For more micro-action samples, please refer to `MA-52 Dataset Samples.zip` in [huggingface](https://huggingface.co/datasets/kunli-cs/MA-52/tree/main). 

@@ -17,8 +17,15 @@ mim install mmpose  # optional
 git clone https://github.com/VUT-HFUT/Micro-Action.git
 cd Micro-Action/mar_scripts/manet/mmaction2
 pip install -v -e .
-
 ```
+Recommeded Version: 
+```
+torch==1.12.1
+torchvision==0.13.1
+mmaction2==0.24.1
+mmcv-full==1.6.2
+```
+
 ## Training
 
 ```bash

@@ -37,7 +37,7 @@ python tools/train.py configs/recognition/manet/manet.py --seed=0 --deterministi
 We provide the pre-trained weights of MANet, you can download it from [here](https://drive.google.com/file/d/1AUwyGPSgOD-EE7scR7skH-SMZ8kCojCs/view?usp=sharing)
 
 ``` bash
-python tools/test.py configs/recognition/manet/manet.py work_dirs/manet/best_top1_acc_epoch_40.pth --dump online_evaluation/test_result.pickle
+python tools/test.py configs/recognition/manet/manet.py work_dirs/manet/best_top1_acc_epoch_40.pth --out online_evaluation/test_result.pickle
 python online_evaluation/eval.py
 ```
 

@@ -1,7 +1,9 @@
 #
 
 ## Data preparation
-TBD.
+Download the dataset from [Huggingface](https://huggingface.co/datasets/kunli-cs/MA-52/tree/main). 
+
+Put dataset into `./data/ma52`.
 
 
 ## Installation

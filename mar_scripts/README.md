@@ -66,8 +66,6 @@ To test your model's performance on `test` split, please submit the test predict
 
 
 ## Results
-
-https://www.hf-mirror.com/kunli-cs/MANet_weights/resolve/main/TSM/best_top1_acc_epoch_45.pth
 | Method | Body Top-1 | Action Top-1 | Action Top-5 | Body F1_Macro | Body F1 Micro | Action F1 Macro | Action F1 Macro | F1 mean | Config	| Download |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------- | ------- | ------- | ------- | ------- | 
 | C3D | 74.04 |  52.22 |  86.97 |  66.60 |  74.04 | 40.86 | 52.22 | 58.43 | - | - |

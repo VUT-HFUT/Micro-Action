@@ -2,11 +2,12 @@ _base_ = ['./i3d_r50_32x2x1_100e_kinetics400_rgb.py']
 
 # dataset settings
 dataset_type = 'VideoDataset'
-data_root = '/chenguoliang/data/micro_action/fined_videos/train/'
-data_root_val = '/chenguoliang/data/micro_action/fined_videos/val/'
-ann_file_train = '/chenguoliang/data/micro_action/new_annotation/new_train.txt'
-ann_file_val = '/chenguoliang/data/micro_action/new_annotation/new_val.txt'
-ann_file_test = '/chenguoliang/data/micro_action/new_annotation/new_val.txt'
+data_root = './data/ma52/videos_train/'
+data_root_val = './data/ma52/videos_val/'
+data_root_test = './data/ma52/videos_test/'
+ann_file_train = './data/ma52/train_list_videos.txt'
+ann_file_val = './data/ma52/val_list_videos.txt'
+ann_file_test = './data/ma52/test_list_videos.txt'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_bgr=False)
 train_pipeline = [
@@ -80,4 +81,4 @@ data = dict(
         pipeline=test_pipeline))
 
 # runtime settings
-work_dir = '/chenguoliang/code/mmaction2/work_dirs/my_i3d_r50_video_3d_32x2x1_100e_micro_action_rgb/'
+work_dir = './work_dirs/my_i3d_r50_video_3d_32x2x1_100e_micro_action_rgb/'

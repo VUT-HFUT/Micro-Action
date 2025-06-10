@@ -5,11 +5,12 @@ _base_ = [
 
 # dataset settings
 dataset_type = 'VideoDataset'
-data_root = '/chenguoliang/data/micro_action/fined_videos/test_train/'
-data_root_val = '/chenguoliang/data/micro_action/fined_videos/test_train/'
-ann_file_train = '/chenguoliang/data/micro_action/new_annotation/test_train.txt'
-ann_file_val = '/chenguoliang/data/micro_action/new_annotation/test_train.txt'
-ann_file_test = '/chenguoliang/data/micro_action/new_annotation/test_train.txt'
+data_root = './data/ma52/videos_train/'
+data_root_val = './data/ma52/videos_val/'
+data_root_test = './data/ma52/videos_test/'
+ann_file_train = './data/ma52/train_list_videos.txt'
+ann_file_val = './data/ma52/val_list_videos.txt'
+ann_file_test = './data/ma52/test_list_videos.txt'
 img_norm_cfg = dict(# 图像正则化参数设置
     mean=[123.675, 116.28, 103.53], # 图像正则化平均值
     std=[58.395, 57.12, 57.375], # 图像正则化方差
@@ -101,4 +102,4 @@ optimizer = dict(
 
 # runtime settings
 checkpoint_config = dict(interval=5)
-work_dir = '/chenguoliang/code/mmaction2/work_dirs/my_tsm_r50_1x1x8_50e_micro_action_rgb/'
+work_dir = './work_dirs/my_tsm_r50_1x1x8_50e_micro_action_rgb/'

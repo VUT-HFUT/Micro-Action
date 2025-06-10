@@ -18,6 +18,7 @@ from mmaction.models import build_model
 from mmaction.utils import (build_ddp, build_dp, default_device,
                             register_module_hooks, setup_multi_processes)
 from sklearn.metrics import f1_score, accuracy_score
+import pickle
 
 # TODO import test functions from mmcv and delete them from mmaction2
 try:
@@ -182,7 +183,7 @@ def inference_pytorch(args, cfg, distributed, data_loader):
 
     return outputs
 
-def top_1_5_accuracy(scores, dataset,target_result_filename,lv_result):
+def top_1_5_accuracy(scores, dataset, target_result_filename, lv_result):
     """Calculate top k accuracy score.
 
     Args:
@@ -194,13 +195,13 @@ def top_1_5_accuracy(scores, dataset,target_result_filename,lv_result):
         list[float]: Top k accuracy score for each k.
     """
     local_time=time.strftime('%Y-%m-%d-%H-%M-%S')
-    filepath=target_result_filename+local_time+'.txt'
-    paths=np.array([ann['filename'] for ann in dataset.video_infos])
-    labels=[ann['label'] for ann in dataset.video_infos]
+    filepath = target_result_filename+local_time+'.txt'
+    paths = np.array([ann['filename'] for ann in dataset.video_infos])
+    labels = [ann['label'] for ann in dataset.video_infos]
     res = []
     labels = np.array(labels)[:, np.newaxis]
-    max_1_preds=np.argsort(scores, axis=1)[:, -1:][:, ::-1]
-    max_5_preds=np.argsort(scores, axis=1)[:, -5:][:, ::-1]
+    max_1_preds = np.argsort(scores, axis=1)[:, -1:][:, ::-1]
+    max_5_preds = np.argsort(scores, axis=1)[:, -5:][:, ::-1]
 
     match_1_array = np.logical_or.reduce(max_1_preds == labels, axis=1)
     match_5_array = np.logical_or.reduce(max_5_preds == labels, axis=1)
@@ -239,17 +240,17 @@ def accuracy(output, target, topk=(1, )):
         res.append(correct_k.mul_(100.0 / batch_size))
     return res
 
-def my_evaluate(dataset,results,target_path):
+def my_evaluate(dataset, results, target_path):
 
     ans_label = [ann['label'] for ann in dataset.video_infos]
-    lv_result = lv_evaluate(results,ans_label)
+    lv_result = lv_evaluate(results, ans_label)
     print(lv_result)
 
-    res = top_1_5_accuracy(results,dataset,target_path,lv_result)
+    res = top_1_5_accuracy(results, dataset, target_path, lv_result)
 
 def lv_evaluate(predictions, labels):
-    # prediction and labels are all level-2 class ids
-    predictions=np.argsort(predictions, axis=1)[:, -1:][:, ::-1]
+    # prediction and labels are action-level
+    predictions = np.argsort(predictions, axis=1)[:, -1:][:, ::-1]
     pre=[]
     for i in predictions:
         pre.append(i[0])
@@ -337,8 +338,6 @@ def evaluate(self,
                 # print_log(log_msg, logger=logger)
                 continue
 
-            
-
         return eval_results
 
 
@@ -418,12 +417,14 @@ def main():
                               **cfg.data.get('test_dataloader', {}))
     data_loader = build_dataloader(dataset, **dataloader_setting)
 
-    target_dir="./work_dirs/manet/2024-04-15-10-07-05former/"
+    target_dir="./work_dirs/manet/"
 
     outputs = inference_pytorch(args, cfg, distributed, data_loader)
 
-    my_evaluate(dataset, outputs, target_dir)
+    ## save results to pickle
+    pickle.dump(outputs, open(args.out, 'wb'))
 
+    my_evaluate(dataset, outputs, target_dir)
 
 if __name__ == '__main__':
     main()

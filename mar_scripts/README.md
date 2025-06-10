@@ -36,7 +36,7 @@ python tools/train.py configs/recognition/manet/manet.py --seed=0 --deterministi
 ```
 
 ## Evaluation 
-We provide the pre-trained weights of MANet, you can download it from [here](https://drive.google.com/file/d/1AUwyGPSgOD-EE7scR7skH-SMZ8kCojCs/view?usp=sharing)
+We provide the pre-trained weights of MANet, you can download it from [here](https://huggingface.co/kunli-cs/MANet_weights/resolve/main/MANet/best_top1_acc_epoch_40.pth?download=true)
 
 ``` bash
 python tools/test.py configs/recognition/manet/manet.py work_dirs/manet/best_top1_acc_epoch_40.pth --out online_evaluation/test_result.pickle
@@ -47,14 +47,22 @@ python online_evaluation/eval.py
 
 ### Format
 The test set is reserved for competition. 
-The prediction file `sample_prediction.csv` is in csv format, each row of the files denotes the predicted categories. 
+The prediction file `prediction.csv` is in csv format, each row of the files denotes the predicted categories. 
 ```
           `id`: `video id`
-`pred_label_1`: `body-grained action category`
-`pred_label_2`: `action-grained action category`
+`action_pred_1`: `top 1 action-level category`
+`action_pred_2`: `top 2 action-level category`
+`action_pred_3`: `top 3 action-level category`
+`action_pred_4`: `top 4 action-level category`
+`action_pred_5`: `top 5 action-level category`
+`body_pred_1`: `top 1 body-level category`
+`body_pred_2`: `top 2 body-level category`
+`body_pred_3`: `top 3 body-level category`
+`body_pred_4`: `top 4 body-level category`
+`body_pred_5`: `top 5 body-level category`
 ```
 
-To test your model's performance on `test` split, please submit the test predictions to the [Codabench evaluation server](https://www.codabench.org/competitions/3264/). The submission file should be a single `.zip` file (no enclosing folder) that contains the prediction file `prediction.csv` formmated as instructed above.  
+To test your model's performance on `test` split, please submit the test predictions to the [Codabench evaluation server](https://www.codabench.org/competitions/9066/). The submission file should be a single `.zip` file (no enclosing folder) that contains the prediction file `prediction.csv` formmated as instructed above.  
 
 ## Acknoledgements 
 This code began with [mmaction2](https://github.com/open-mmlab/mmaction2). We thank the developers for doing most of the heavy-lifting. 
@@ -71,8 +79,6 @@ Please consider citing the related paper in your publications if it helps your r
   year={2024},
   volume={34},
   number={7},
-  pages={6238-6252},
-  publisher={IEEE},
-  doi={10.1109/TCSVT.2024.3358415}
+  pages={6238-6252}
 }
 ```

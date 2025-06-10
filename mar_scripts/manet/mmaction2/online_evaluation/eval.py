@@ -7,9 +7,10 @@ import os
 import pickle
 import zipfile
 import csv
+import numpy as np
 
 pickle_file_path = 'online_evaluation/test_result.pickle'
-csv_file_path = 'online_evaluation/prediction.csv'
+pred_file_path = 'online_evaluation/prediction.csv'
 zip_file_path = 'online_evaluation/submission.zip'
 
 def fine2coarse(x):
@@ -30,15 +31,28 @@ def fine2coarse(x):
 
 with open(pickle_file_path, 'rb') as file:
     datas = pickle.load(file)
-f = open(csv_file_path, 'w', newline='')
-writer = csv.writer(f)
-writer.writerow(["id", "pred_label_1", "pred_label_2"])
-for index, data in enumerate(datas):
-    file_name = "test" + str(index).zfill(4) + '.mp4'
-    fine_pred = data['pred_label'].cpu().numpy()[0]
-    coarse_pred = fine2coarse(fine_pred)
-    writer.writerow([file_name, str(coarse_pred), str(fine_pred)])
-f.close()
+
+with open('./data/ma52/test_list_videos.txt', 'r') as f:
+    file_names = [line.strip().split()[0] for line in f.readlines()]
+
+with open(pred_file_path, 'w', newline='') as f:
+    writer = csv.writer(f)
+    header = ['vid'] + \
+             [f'action_pred_{i}' for i in range(1, 6)] + \
+             [f'body_pred_{i}' for i in range(1, 6)]
+    writer.writerow(header)
+
+    for index, data in enumerate(datas):
+        file_name = file_names[index]
+
+        pred_scores = data
+        top5_fine = np.argsort(pred_scores)[-5:][::-1].tolist()
+
+        # convert action-level label to body-level label. 
+        # Note that this is a simple conversion.
+        top5_coarse = [fine2coarse(x) for x in top5_fine]
+
+        writer.writerow([file_name] + top5_fine + top5_coarse)
 
 with zipfile.ZipFile(zip_file_path, 'w') as zipf:
-    zipf.write(csv_file_path, os.path.basename(csv_file_path))
+    zipf.write(pred_file_path, os.path.basename(pred_file_path))

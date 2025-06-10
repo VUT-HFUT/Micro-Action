@@ -111,7 +111,7 @@ venv.bak/
 *.pkl.json
 *.log.json
 benchlist.txt
-work_dirs/
+work_dirs/*.pth
 
 # Pytorch
 *.pth

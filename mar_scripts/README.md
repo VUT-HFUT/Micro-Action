@@ -49,7 +49,7 @@ python online_evaluation/eval.py
 The test set is reserved for competition. 
 The prediction file `prediction.csv` is in csv format, each row of the files denotes the predicted categories. 
 ```
-          `id`: `video id`
+          `vid`: `video id`
 `action_pred_1`: `top 1 action-level category`
 `action_pred_2`: `top 2 action-level category`
 `action_pred_3`: `top 3 action-level category`

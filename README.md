@@ -2,26 +2,22 @@
 
 **Benchmarking Micro-action Recognition: Dataset, Methods, and Applications**
 
-<p align="left">
-<a href="https://arxiv.org/abs/2403.05234" alt="arXiv">
-    <img src="https://img.shields.io/badge/arXiv-2403.05234-b31b1b.svg?style=flat" /></a>
-<a href="https://ieeexplore.ieee.org/document/10414076" alt="ieee">
-    <img src="https://img.shields.io/badge/Published%20in-IEEE%20TCSVT-blue.svg?style=flat" /></a>
-<a href="https://github.com/VUT-HFUT/Micro-Action/issues" alt="docs">
-    <img src="https://img.shields.io/github/issues-raw/VUT-HFUT/Micro-Action?color=%23FF9600" /></a>
-<a href="https://img.shields.io/github/stars/VUT-HFUT/Micro-Action" alt="arXiv">
-    <img src="https://img.shields.io/github/stars/VUT-HFUT/Micro-Action" /></a>
-</p>
+![arXiv](https://img.shields.io/badge/arXiv-2403.05234-b31b1b.svg?style=flat)
+![IEEE TCSVT](https://img.shields.io/badge/Published%20in-IEEE%20TCSVT-blue.svg?style=flat)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=hfut-vut.Micro-Action&left_color=green&right_color=red)
+![GitHub issues](https://img.shields.io/github/issues-raw/VUT-HFUT/Micro-Action?color=%23FF9600)
+![GitHub stars](https://img.shields.io/github/stars/VUT-HFUT/Micro-Action?style=flat&color=yellow)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-micro-action-recognition-dataset/micro-action-recognition-on-ma-52)](https://paperswithcode.com/sota/micro-action-recognition-on-ma-52?p=benchmarking-micro-action-recognition-dataset)
 
 
 ## 🚀 News
-- [2025/6/10] :tada: :tada: :tada: We launched the 2nd Micro-Action Analysis Grand Challenge ([MAC 2025](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2025](https://acmmm2025.org/).
-- [2024/12/15] Our paper [PCAN](https://github.com/kunli-cs/PCAN) about Micro-Action Recognition is accepted by **AAAI 2025**. 
-- [2024/7/9] We released the MMA-52 dataset for the Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
-- [2024/4/26] We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
-- [2024/4/16] We released the source code of MANet. 
+- **[2025/6/26]** :fire: :fire: :fire: Our dataset MMA-52 about Multi-label Micro-Action Detection is accepted by **ICCV 2025**. 
+- **[2025/6/10]** We launched the 2nd Micro-Action Analysis Grand Challenge ([MAC 2025](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2025](https://acmmm2025.org/).
+- **[2024/12/15]** Our paper [PCAN](https://github.com/kunli-cs/PCAN) about Micro-Action Recognition is accepted by **AAAI 2025**. 
+- **[2024/7/9]** We released the MMA-52 dataset for the Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
+- **[2024/4/26]** We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
+- **[2024/4/16]** We released the source code of MANet. 
 
 ---
 
@@ -36,15 +32,11 @@ Micro-action is an imperceptible non-verbal behaviour characterised by low-inten
 
 The datasets are **only** to be used for **non-commercial scientific purposes**. You may request access to the dataset by completing the Google Form provided and corresponding LA files. We will respond promptly upon receipt of your application. If you have difficulty in filling out the form, we can also accept the application by [[email](mailto:kunli.hfut@gmail.com?subject=Micro-Action%20Dataset%20Requests&cc=guodan@hfut.edu.cn)]. 
 
-- Micro-Action-52 dataset (MA-52):
-	- [Application Form 📝](https://forms.gle/avQQiRWvbxa1nDFQ6)
- 	- [LA File 📑](https://drive.google.com/file/d/1vAussMwE9GrL5Vt1MpSQeSmVbUMsgPhw/view?usp=sharing)
-  	- [Data 🤗](https://huggingface.co/datasets/kunli-cs/MA-52) 
+- Micro-Action-52 dataset (MA-52): [![Application Form 📝](https://img.shields.io/badge/Application--Form-Submit-brightgreen?style=flat&logo=googleforms)](https://forms.gle/avQQiRWvbxa1nDFQ6) [![LA File 📑](https://img.shields.io/badge/LA--File-Download-blue?style=flat&logo=google-drive)](https://drive.google.com/file/d/1vAussMwE9GrL5Vt1MpSQeSmVbUMsgPhw/view?usp=sharing) [![MA-52 Dataset 🤗](https://img.shields.io/badge/Hugging%20Face-MA--52%20Dataset-orange?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/kunli-cs/MA-52)
+
 <!-- - Micro-Action-Pro dataset (MA-52-Pro): [Application Form](https://forms.gle/ALje6GSeh2okHbmx8) -->
-- Multi-label Micro-Action-52 dataset (MMA-52):
-	- [Application Form 📝](https://forms.gle/k9p7MxzEKT3iV27x6)
- 	- [LA File 📑](https://drive.google.com/file/d/1uJ071OdsGKxWa70nOHdjDjnOfWXy7bgU/view?usp=sharing)
-   	- [Data 🤗](https://huggingface.co/datasets/kunli-cs/MMA-52) 
+- Multi-label Micro-Action-52 dataset (MMA-52): [![Application Form 📝](https://img.shields.io/badge/Application--Form-Submit-brightgreen?style=flat&logo=googleforms)](https://forms.gle/k9p7MxzEKT3iV27x6) [![LA File 📑](https://img.shields.io/badge/LA--File-Download-blue?style=flat&logo=google-drive)](https://drive.google.com/file/d/1uJ071OdsGKxWa70nOHdjDjnOfWXy7bgU/view?usp=sharing) [![MMA-52 Dataset 🤗](https://img.shields.io/badge/Hugging%20Face-MMA--52%20Dataset-orange?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/kunli-cs/MMA-52)
+
 
 
 ### MA-52 Statistics
@@ -118,11 +110,22 @@ Please consider citing the related paper in your publications if it helps your r
 }
 
 @article{li2024mmad,
-  title={MMAD: Multi-label Micro-Action Detection in Videos},
-  author={Li, Kun and Guo, Dan and Liu, Pengyu and Chen, Guoliang and Wang, Meng},
+  title={Mmad: Multi-label micro-action detection in videos},
+  author={Li, Kun and Liu, Pengyu and Guo, Dan and Wang, Fei and Wu, Zhiliang and Fan, Hehe and Wang, Meng},
   journal={arXiv preprint arXiv:2407.05311},
   year={2024}
 }
+
+@inproceedings{li2025prototypical,
+  title={Prototypical calibrating ambiguous samples for micro-action recognition},
+  author={Li, Kun and Guo, Dan and Chen, Guoliang and Fan, Chunxiao and Xu, Jingyuan and Wu, Zhiliang and Fan, Hehe and Wang, Meng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={5},
+  pages={4815--4823},
+  year={2025}
+}
+
 
 @misc{MicroAction2024,
   author       = {Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},

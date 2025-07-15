@@ -32,10 +32,14 @@ Micro-action is an imperceptible non-verbal behaviour characterised by low-inten
 
 The datasets are **only** to be used for **non-commercial scientific purposes**. You may request access to the dataset by completing the Google Form provided and corresponding LA files. We will respond promptly upon receipt of your application. If you have difficulty in filling out the form, we can also accept the application by [[email](mailto:kunli.hfut@gmail.com?subject=Micro-Action%20Dataset%20Requests&cc=guodan@hfut.edu.cn)]. 
 
-- Micro-Action-52 dataset (MA-52): [![Application Form 📝](https://img.shields.io/badge/Application--Form-Submit-brightgreen?style=flat&logo=googleforms)](https://forms.gle/avQQiRWvbxa1nDFQ6) [![LA File 📑](https://img.shields.io/badge/LA--File-Download-blue?style=flat&logo=google-drive)](https://drive.google.com/file/d/1vAussMwE9GrL5Vt1MpSQeSmVbUMsgPhw/view?usp=sharing) [![MA-52 Dataset 🤗](https://img.shields.io/badge/Hugging%20Face-MA--52%20Dataset-orange?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/kunli-cs/MA-52)
+**Micro-Action-52 dataset (MA-52)**: 
+
+[![Application Form 📝](https://img.shields.io/badge/Application--Form-Submit-brightgreen?style=flat&logo=googleforms)](https://forms.gle/avQQiRWvbxa1nDFQ6) [![LA File 📑](https://img.shields.io/badge/LA--File-Download-blue?style=flat&logo=google-drive)](https://drive.google.com/file/d/1vAussMwE9GrL5Vt1MpSQeSmVbUMsgPhw/view?usp=sharing) [![MA-52 Dataset 🤗](https://img.shields.io/badge/Hugging%20Face-MA--52%20Dataset-orange?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/kunli-cs/MA-52)
 
 <!-- - Micro-Action-Pro dataset (MA-52-Pro): [Application Form](https://forms.gle/ALje6GSeh2okHbmx8) -->
-- Multi-label Micro-Action-52 dataset (MMA-52): [![Application Form 📝](https://img.shields.io/badge/Application--Form-Submit-brightgreen?style=flat&logo=googleforms)](https://forms.gle/k9p7MxzEKT3iV27x6) [![LA File 📑](https://img.shields.io/badge/LA--File-Download-blue?style=flat&logo=google-drive)](https://drive.google.com/file/d/1uJ071OdsGKxWa70nOHdjDjnOfWXy7bgU/view?usp=sharing) [![MMA-52 Dataset 🤗](https://img.shields.io/badge/Hugging%20Face-MMA--52%20Dataset-orange?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/kunli-cs/MMA-52)
+**Multi-label Micro-Action-52 dataset (MMA-52)**: 
+
+[![Application Form 📝](https://img.shields.io/badge/Application--Form-Submit-brightgreen?style=flat&logo=googleforms)](https://forms.gle/k9p7MxzEKT3iV27x6) [![LA File 📑](https://img.shields.io/badge/LA--File-Download-blue?style=flat&logo=google-drive)](https://drive.google.com/file/d/1uJ071OdsGKxWa70nOHdjDjnOfWXy7bgU/view?usp=sharing) [![MMA-52 Dataset 🤗](https://img.shields.io/badge/Hugging%20Face-MMA--52%20Dataset-orange?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/kunli-cs/MMA-52)
 
 
 
@@ -104,9 +108,7 @@ Please consider citing the related paper in your publications if it helps your r
   year={2024},
   volume={34},
   number={7},
-  pages={6238-6252},
-  publisher={IEEE},
-  doi={10.1109/TCSVT.2024.3358415}
+  pages={6238-6252}
 }
 
 @article{li2024mmad,

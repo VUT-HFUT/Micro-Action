@@ -12,12 +12,12 @@
 
 
 ## 🚀 News
-- **[2025/6/26]** :fire: :fire: :fire: Our dataset MMA-52 about Multi-label Micro-Action Detection is accepted by **ICCV 2025**. 
-- **[2025/6/10]** We launched the 2nd Micro-Action Analysis Grand Challenge ([MAC 2025](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2025](https://acmmm2025.org/).
-- **[2024/12/15]** Our paper [PCAN](https://github.com/kunli-cs/PCAN) about Micro-Action Recognition is accepted by **AAAI 2025**. 
-- **[2024/7/9]** We released the MMA-52 dataset for the Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
-- **[2024/4/26]** We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
-- **[2024/4/16]** We released the source code of MANet. 
+- **`[2025/06/26]`** :fire: :fire: :fire: Our dataset MMA-52 about Multi-label Micro-Action Detection is accepted by **ICCV 2025**. 
+- **`[2025/06/10]`** We launched the 2nd Micro-Action Analysis Grand Challenge ([MAC 2025](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2025](https://acmmm2025.org/).
+- **`[2024/12/15]`** Our paper [PCAN](https://github.com/kunli-cs/PCAN) about Micro-Action Recognition is accepted by **AAAI 2025**. 
+- **`[2024/07/09]`** We released the MMA-52 dataset for the Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
+- **`[2024/04/26]`** We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
+- **`[2024/04/16]`** We released the source code of MANet. 
 
 ---
 

@@ -1,6 +1,11 @@
 # Micro-Action Benchmark
 
-**Benchmarking Micro-action Recognition: Dataset, Methods, and Applications**
+<div align="center">
+<h1>Benchmarking Micro-action Recognition: Dataset, Methods, and Applications</h1>
+
+[**Dan Guo**](https://scholar.google.com/citations?user=DsEONuMAAAAJ), [**Kun Li**](https://scholar.google.com/citations?user=UQ_bInoAAAAJ)<sup> :email: </sup>, [**Bin Hu**](), [**Yan Zhang**](), [**Meng Wang**](https://scholar.google.com/citations?user=rHagaaIAAAAJ)<sup> :email: </sup>
+
+
 
 ![arXiv](https://img.shields.io/badge/arXiv-2403.05234-b31b1b.svg?style=flat)
 ![IEEE TCSVT](https://img.shields.io/badge/Published%20in-IEEE%20TCSVT-blue.svg?style=flat)
@@ -10,9 +15,11 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-micro-action-recognition-dataset/micro-action-recognition-on-ma-52)](https://paperswithcode.com/sota/micro-action-recognition-on-ma-52?p=benchmarking-micro-action-recognition-dataset)
 
+</div>
 
 ## 🚀 News
-- **`[2025/06/26]`** :fire: :fire: :fire: Our dataset MMA-52 about Multi-label Micro-Action Detection is accepted by **ICCV 2025**. 
+- **`[2025/07/06]`** :fire: :fire: :fire: Our paper [MMN](https://arxiv.org/abs/2507.21977) about `Skeleton-based Micro-Action Recognition` is accepted by **ACM MM 2025**.
+- **`[2025/06/26]`** Our dataset [MMA-52](https://arxiv.org/abs/2407.05311) about Multi-label Micro-Action Detection is accepted by **ICCV 2025**. 
 - **`[2025/06/10]`** We launched the 2nd Micro-Action Analysis Grand Challenge ([MAC 2025](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2025](https://acmmm2025.org/).
 - **`[2024/12/15]`** Our paper [PCAN](https://github.com/kunli-cs/PCAN) about Micro-Action Recognition is accepted by **AAAI 2025**. 
 - **`[2024/07/09]`** We released the MMA-52 dataset for the Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)

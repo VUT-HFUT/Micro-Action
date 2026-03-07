@@ -18,7 +18,9 @@
 </div>
 
 ## 🚀 News
-- **`[2025/07/06]`** :fire: :fire: :fire: Our paper [MMN](https://arxiv.org/abs/2507.21977) about `Skeleton-based Micro-Action Recognition` is accepted by **ACM MM 2025**.
+- **`[2026/03/07]`** :fire: :fire: :fire: We launched the 3rd Micro-Action Analysis Grand Challenge ([MAC 2026](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2026](https://acmmm2026.org/).
+- **`[2026/02/21]`** :fire: :fire: :fire: Our benchmark [MA-Bench](https://MA-Bench.github.io/) about `fine-grained micro-action understanding via MLLMs` is accepted by **CVPR 2026**.
+- **`[2025/07/06]`** Our paper [MMN](https://arxiv.org/abs/2507.21977) about `Skeleton-based Micro-Action Recognition` is accepted by **ACM MM 2025**.
 - **`[2025/06/26]`** Our dataset [MMA-52](https://arxiv.org/abs/2407.05311) about Multi-label Micro-Action Detection is accepted by **ICCV 2025**. 
 - **`[2025/06/10]`** We launched the 2nd Micro-Action Analysis Grand Challenge ([MAC 2025](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2025](https://acmmm2025.org/).
 - **`[2024/12/15]`** Our paper [PCAN](https://github.com/kunli-cs/PCAN) about Micro-Action Recognition is accepted by **AAAI 2025**. 

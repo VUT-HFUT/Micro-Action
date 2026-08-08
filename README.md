@@ -7,13 +7,15 @@
 
 
 
-![arXiv](https://img.shields.io/badge/arXiv-2403.05234-b31b1b.svg?style=flat)
-![IEEE TCSVT](https://img.shields.io/badge/Published%20in-IEEE%20TCSVT-blue.svg?style=flat)
+[![arXiv](https://img.shields.io/badge/arXiv-2403.05234-b31b1b.svg?style=flat)](https://arxiv.org/abs/2403.05234)
+[![IEEE TCSVT](https://img.shields.io/badge/Published%20in-IEEE%20TCSVT-blue.svg?style=flat)](https://ieeexplore.ieee.org/abstract/document/10414076/) ![ESI Highly Cited Paper](https://img.shields.io/badge/ESI-Highly%20Cited%20Paper-red.svg?style=flat)
+
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=hfut-vut.Micro-Action&left_color=green&right_color=red)
 ![GitHub issues](https://img.shields.io/github/issues-raw/VUT-HFUT/Micro-Action?color=%23FF9600)
 ![GitHub stars](https://img.shields.io/github/stars/VUT-HFUT/Micro-Action?style=flat&color=yellow)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-micro-action-recognition-dataset/micro-action-recognition-on-ma-52)](https://paperswithcode.com/sota/micro-action-recognition-on-ma-52?p=benchmarking-micro-action-recognition-dataset)
+<!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-micro-action-recognition-dataset/micro-action-recognition-on-ma-52)](https://paperswithcode.com/sota/micro-action-recognition-on-ma-52?p=benchmarking-micro-action-recognition-dataset) -->
 
 </div>
 
@@ -27,6 +29,12 @@
 - **`[2024/07/09]`** We released the MMA-52 dataset for the Multi-label Micro-Action Detection task. [Report](https://arxiv.org/abs/2407.05311)
 - **`[2024/04/26]`** We launched the Micro-Action Analysis Grand Challenge ([MAC 2024](https://sites.google.com/view/micro-action)) associated with [ACM Multimedia 2024](https://2024.acmmm.org/).
 - **`[2024/04/16]`** We released the source code of MANet. 
+
+
+> [!CAUTION]
+> ### DATA PRIVACY NOTICE
+> Due to the privacy-sensitive nature of the data, **any distribution, redistribution, re-annotation, or similar use of the datasets without our official authorization is strictly prohibited**. We reserve the right to **pursue legal action and hold the responsible parties liable** for any resulting issues.
+
 
 ---
 
@@ -120,11 +128,13 @@ Please consider citing the related paper in your publications if it helps your r
   pages={6238-6252}
 }
 
-@article{li2024mmad,
+@inproceedings{li2025mmad,
   title={Mmad: Multi-label micro-action detection in videos},
   author={Li, Kun and Liu, Pengyu and Guo, Dan and Wang, Fei and Wu, Zhiliang and Fan, Hehe and Wang, Meng},
-  journal={arXiv preprint arXiv:2407.05311},
-  year={2024}
+  booktitle={2025 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages={13225--13236},
+  year={2025},
+  organization={IEEE}
 }
 
 @inproceedings{li2025prototypical,

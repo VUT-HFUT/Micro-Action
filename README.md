@@ -147,6 +147,21 @@ Please consider citing the related paper in your publications if it helps your r
   year={2025}
 }
 
+@inproceedings{gu2025motion,
+  title={Motion matters: Motion-guided modulation network for skeleton-based micro-action recognition},
+  author={Gu, Jihao and Li, Kun and Wang, Fei and Wei, Yanyan and Wu, Zhiliang and Fan, Hehe and Wang, Meng},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={5461--5470},
+  year={2025}
+}
+
+@inproceedings{li2026ma,
+  title={MA-Bench: Towards fine-grained micro-action understanding},
+  author={Li, Kun and Gu, Jihao and Wang, Fei and Wu, Zhiliang and Fan, Hehe and Guo, Dan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20118--20128},
+  year={2026}
+}
 
 @misc{MicroAction2024,
   author       = {Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},
